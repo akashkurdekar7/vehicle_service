@@ -26,21 +26,21 @@ The **Vehicle Service Management System** is designed to facilitate the manageme
 1. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/yourusername/vehicle-service-management-system.git
+    https://github.com/akashkurdekar7/vehicle_service.git
     ```
 
 2. **Navigate to the Project Directory**
 
     ```bash
-    cd vehicle-service-management-system
+    cd vehicle_service
     ```
 
 3. **Set Up the Database**
 
-    Import the provided SQL dump (`sql/database_dump.sql`) into your MySQL database:
+    Import the provided SQL dump (`sql/vehicle_service_db.sql`) into your MySQL database:
 
     ```bash
-    mysql -u yourusername -p yourdatabase < sql/database_dump.sql
+    mysql -u akashkurdekar7 -p vehicle_service_db < sql/vehicle_service_db.sql
     ```
 
 4. **Configure Database Connection**
